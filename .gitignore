@@ -5,6 +5,7 @@ npm-shrinkwrap.json
 data
 *.log
 *.gz
+.idea
 
 # Coveralls
 .nyc_output
