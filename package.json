@@ -1,0 +1,38 @@
+{
+  "name": "language-learner",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@adminjs/express": "^6.1.0",
+    "@adminjs/mongoose": "^4.1.0",
+    "adminjs": "^7.8.13",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "i18next": "^23.16.4",
+    "i18next-express-middleware": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mock-session": "^0.0.5",
+    "mongoose": "^8.8.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.5"
+  }
+}
